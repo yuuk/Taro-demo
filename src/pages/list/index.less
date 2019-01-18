@@ -1,0 +1,39 @@
+
+.list {
+  padding: 20px;
+  min-height:100vh;
+  box-sizing:border-box;
+  background-color: #efefef;
+}
+
+.gird-contailer {
+  flex-flow: row wrap;
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+  margin-top: 15px;
+}
+
+.grid {
+  width: 50%;
+  padding: 10px;
+  border-radius:5px;
+  &-inner {
+    background: #fff;
+    border-radius: 0  0 5px 5px;
+  }
+  .img {
+    width: 100%;
+    display: block;
+    border-radius: 5px 5px 0 0;
+  }
+  .title-wrap {
+    padding: 15px;
+  }
+  .title {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
+}
