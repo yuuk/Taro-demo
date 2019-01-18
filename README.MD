@@ -1,8 +1,7 @@
 
 # 基于 Taro 开发的小 Demo
 
-
-安装：
+安装：
 
 ```javascript
 npm install
